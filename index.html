@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <title>Curriculum Vitae</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #0dc5fd, #003580);
+            color: white;
+            padding: 60px 0;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 5px solid white;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+        .section-title {
+            border-left: 5px solid #0d6efd;
+            padding-left: 10px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My CV</a>
+            <button class="navbar-collapse text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#tentang">Tentang Saya</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#akademik">Pendidikan & Skill</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portofolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center shadow">
+        <div class="container">
+            <img src="profile.png" alt="Foto Profil Utama" class="rounded-circle profile-img mb-3 shadow">
+            
+            <h1 class="display-4 fw-bold">Richo Natanael</h1>
+            <p class="lead"><em>Web Developer & IT Specialist</em></p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            
+            <div class="col-lg-8">
+                
+                <section id="tentang" class="card p-4">
+                    <h2 class="section-title"><i class="fa-solid fa-user me-2"></i>Deskripsi Diri</h2>
+                    
+                    <p class="text-justify">
+                        Halo! Saya adalah seorang mahasiswa program studi <strong>Informatika</strong> yang memiliki ketertarikan mendalam pada pengembangan aplikasi web dan manajemen basis data. Dengan pengalaman akademis dan proyek praktis yang saya miliki, saya selalu berkomitmen untuk membangun solusi digital yang tidak hanya <mark>fungsional</mark>, tetapi juga memiliki pengalaman pengguna (UX) yang optimal dan adaptif terhadap perkembangan zaman.
+                    </p>
+                    <p class="text-justify">
+                        Selain fokus pada sisi teknis, saya juga aktif dalam organisasi mahasiswa yang mengasah kemampuan <em>problem-solving</em>, komunikasi, serta kerja sama tim. Saya percaya bahwa kombinasi antara keahlian teknis yang kuat dan komunikasi yang baik adalah kunci utama dalam menyukseskan setiap proyek teknologi di industri modern saat ini.
+                    </p>
+                </section>
+
+                <section id="akademik" class="card p-4">
+                    <h2 class="section-title"><i class="fa-solid fa-graduation-cap me-2"></i>Pendidikan & Kompetensi</h2>
+                    
+                    <h3 class="h5 text-primary mb-3">Riwayat Pendidikan</h3>
+                    <div class="table-responsive mb-4">
+                        <table class="table table-hover table-striped border">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th>Tahun</th>
+                                    <th>Institusi</th>
+                                    <th>Jurusan/Program</th>
+                                    <th>Predikat</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2026 - sekarang</td>
+                                    <td>Universitas Siber Asia</td>
+                                    <td></td>
+                                    <td><strong></strong></td>
+                                </tr>
+                                <tr>
+                                    <td>2022- 2025</td>
+                                    <td>SMK Informatika Bangsa</td>
+                                    <td>Rekayasa Perangkat Lunak</td>
+                                    <td>Lulus Terbaik</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h3 class="h5 text-primary mb-3">Sertifikasi Profesional</h3>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-sm align-middle">
+                            <thead class="table-dark">
+                                <tr class="text-center">
+                                    <th>Nama Sertifikasi</th>
+                                    <th>Penerbit</th>
+                                    <th>Masa Berlaku</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Microsoft Certified: Azure AI Fundamentals</td>
+                                    <td>Microsoft</td>
+                                    <td><small class="text-success">Active / Lifetime</small></td>
+                                </tr>
+                                <tr>
+                                    <td>Junior Web Developer</td>
+                                    <td>BNSP Indonesia</td>
+                                    <td>Hingga 2029</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-lg-4">
+                
+                <div class="card p-4">
+                    <h2 class="section-title h4"><i class="fa-solid fa-code me-2"></i>Keahlian</h2>
+                    
+                    <p class="fw-bold mb-1 text-secondary">Technical Skills:</p>
+                    <ul class="mb-4">
+                        <li>HTML5, CSS3, & JavaScript</li>
+                        <li>Bootstrap 5 & Tailwind CSS</li>
+                        <li>MySQL & MariaDB Database</li>
+                    </ul>
+
+                    <p class="fw-bold mb-1 text-secondary">Penguasaan Bahasa:</p>
+                    <ol>
+                        <li>Bahasa Indonesia <del>(Native)</del> <strong>(Fasih)</strong></li>
+                        <li>Bahasa Inggris (TOEFL: 550)</li>
+                    </ol>
+                </div>
+
+                <div id="portfolio" class="card p-4">
+                    <h2 class="section-title h4"><i class="fa-solid fa-briefcase me-2"></i>Proyek Terbaru</h2>
+                    <p class="text-muted"><small>Berikut adalah beberapa visualisasi proyek aplikasi yang telah saya kembangkan:</small></p>
+                    
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300" class="img-fluid rounded border shadow-sm" alt="Proyek Web E-Commerce">
+                            <p class="text-center"><small class="text-muted">E-Commerce</small></p>
+                        </div>
+                        <div class="col-6">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300" class="img-fluid rounded border shadow-sm" alt="Proyek Dashboard Analisis">
+                            <p class="text-center"><small class="text-muted">Dashboard IT</small></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-4 text-center bg-light">
+                    <h2 class="section-title h5 text-start"><i class="fa-solid fa-envelope me-2"></i>Kontak</h2>
+                    <p>Tertarik untuk bekerja sama? Hubungi saya melalui tautan di bawah ini:</p>
+                    <a href="https://github.com" target="_blank" class="btn btn-dark w-100 mb-2"><i class="fa-brands fa-github me-2"></i>Kunjungi GitHub Saya</a>
+                    <a href="https://linkedin.com" target="_blank" class="btn btn-primary w-100"><i class="fa-brands fa-linkedin me-2"></i>Hubungkan ke LinkedIn</a>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Richo Natanael. Ditulis menggunakan Bootstrap 5.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
